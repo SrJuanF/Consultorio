@@ -1,0 +1,168 @@
+@media screen and (max-width: 800px) {
+    .selectIni{
+        font-size: 14px;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+    .dateCita{
+        width: 60px;
+        height: 60px;
+    }
+    .espaciDate{
+        padding-left: 3vw;
+    }
+    .espaciLogo{
+        width: 0;
+        position: absolute;
+        right: 2vw;
+        z-index: 5;
+    }
+    .ilus{
+        height: 87px;
+        width: 87px;
+    }
+    @keyframes Lus {
+        0% {
+            transform: translateX(-620px);
+        }
+    }
+    @keyframes Logo {
+        0%{height: 50px;
+            width: 52px;}
+        25%{height: 75px;
+            width: 77px;}
+        50%{height: 53px;
+            width: 55px;}
+        75%{height: 80px;
+            width: 82px;}
+        100%{height: 58px;
+            width: 60px;}
+    }
+    .cuadro{
+        padding: 10vh 5vw 6vh 5vw;
+    }
+    .deslice{
+        width: 40px;
+        height: 40px;
+    }
+    .mapa{
+        margin-top: 9vh;
+    }
+    .boton-agenda{
+        font-size: 20px;
+        padding: 2vw 3vw;
+    }
+    .footerImg{
+        width: 14vw;
+        height: 8.5vw;
+    }
+    .dataFoter{
+        font-size: 13px;
+    }
+    .instagram{
+        width: 6vw;
+        height: 6vw;
+    }
+    .sectionTitulo{
+        font-size: 3.2vw;
+    }
+    /*Contacto*/
+    .contacto-container{
+        width: 70vw;
+    }
+    .contacto-header-title{
+        font-size: 25px; 
+    }
+    .contacto-header-button{
+        font-size: 16px;
+    }
+    .contacto-contentt{
+        padding: 2vh 0px;
+    }
+    .formIPContac{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .formIPContac label{
+        width: 100%;
+        font-size: 13px; 
+        text-align: center;
+        padding-bottom: 0.3vh;
+    }
+    .formIPContac input{
+        width: 150px;
+        max-width:100%;
+        font-size: 10px;
+    }
+    .formIPContac textarea{
+        width: 150px;
+        max-width:100%;
+        font-size: 10px;
+    }
+    .btnOKContac{
+        font-size: 15px; 
+    }
+    .Publicaciones{
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    @keyframes Lus {
+        0% {
+            transform: translateX(-400px);
+        }
+    }
+    .quote {
+        margin: 3.7vh 2vw;
+        font-size: 3vw;
+    }
+    .quotation-mark {
+        font-size: 4.9vw;
+    }
+    .dataFoter{
+        font-size: 8.5px;
+    }
+    .instagram{
+        width: 9vw;
+        height: 9vw;
+    }
+    .footerImg{
+        width: 16vw;
+        height: 11vw;
+    }
+    .containerDate{
+        left: 10px;
+    }
+    .sectionTitulo{
+        font-size: 3.5vw;
+    }
+
+    .titlePS{
+        font-size: 4.7vw;
+        margin-bottom: 2.1vh;
+    }
+    .subtitlePS{
+        font-size: 3vw;
+        margin-top: 0.3vh;
+        margin-bottom: 1.1vh;
+    }
+    .parrafoPS{
+        font-size: 2.5vw;
+        margin-bottom: 1.2vh;
+    }
+    .guionPS{
+        margin-bottom: 1.2vh;
+    }
+    .guionPS li{
+        font-size: 2.55vw;
+    }
+    .imgPS{
+        margin-top: 0.45vh;
+        margin-bottom: 1.1vh;
+    }
+    .Publicaciones{
+        width: 77vw;
+    }
+}

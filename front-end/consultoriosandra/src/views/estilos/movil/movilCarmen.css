@@ -1,0 +1,77 @@
+@media screen and (max-width: 800px) {
+    .selectIni{
+        font-size: 14px;
+    }
+    .ilus{
+        height: 87px;
+        width: 87px;
+    }
+    @keyframes Logo {
+        0%{height: 50px;
+            width: 52px;}
+        25%{height: 75px;
+            width: 77px;}
+        50%{height: 53px;
+            width: 55px;}
+        75%{height: 80px;
+            width: 82px;}
+        100%{height: 58px;
+            width: 60px;}
+    }
+    .ContactoIMG{
+        height: 50px;
+        width: 50px;
+    }
+    .deslice{
+        width: 40px;
+        height: 40px;
+    }
+    .mapa{
+        margin-top: 9vh;
+    }
+    .boton-agenda{
+        font-size: 20px;
+        padding: 2vw 3vw;
+    }
+    .footerImg{
+        width: 14vw;
+        height: 8.5vw;
+    }
+    .dataFoter{
+        font-size: 13px;
+    }
+    .instagram{
+        width: 6vw;
+        height: 6vw;
+    }
+    .sectionTitulo{
+        font-size: 3.2vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .quote {
+        margin: 3.7vh 2vw;
+        font-size: 3vw;
+    }
+    .quotation-mark {
+        font-size: 4.9vw;
+    }
+    .dataFoter{
+        font-size: 8.5px;
+    }
+    .instagram{
+        width: 9vw;
+        height: 9vw;
+    }
+    .footerImg{
+        width: 16vw;
+        height: 11vw;
+    }
+    .containerDate{
+        left: 10px;
+    }
+    .sectionTitulo{
+        font-size: 3.5vw;
+    }
+}

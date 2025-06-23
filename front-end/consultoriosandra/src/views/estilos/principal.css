@@ -1,0 +1,652 @@
+.selectIni {
+    border: 0;
+    box-shadow: 0 0 10px 0 rgb(253, 251, 251);
+    border-radius: 8px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1.3vh;
+    z-index: 31;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    color: white;
+}
+/*Web*/
+/*Header*/
+.bloque1 {
+    width: 99vw;
+    height: 15vh;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-image: url(~@/assets/intro/fondoPP.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.bloque1b {
+    width: 99vw;
+    height: 14vh;
+    border-radius: 15px;
+    padding: 0;
+    background: radial-gradient(circle at center, transparent, rgb(212, 175, 55));
+}
+.logoWeb {
+    filter: drop-shadow(0 0 5px white);
+    animation-name: Logo;
+    animation-duration: 3.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Logo {
+    0%{height: 7.8vh;
+        width: 8vh;}
+    25%{height: 11.3vh;
+        width: 11.7vh;}
+    50%{height: 8.3vh;
+        width: 8.8vh;}
+    75%{height: 14vh;
+        width: 14.4vh;}
+    100%{height: 9vh;
+        width: 9.5vh;}
+}
+.ilus{
+    height: 14vh;
+    width: 14vh;
+    background: radial-gradient(circle at center, transparent, rgb(255, 255, 255) 70%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px rgb(255,255,255);
+    animation-name: Lus;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Lus {
+    0% {
+        transform: translateX(-940%);
+    }
+}
+.espaciLogo{
+    padding: 0;
+}
+.espaciDate{
+    padding: 0;
+}
+.content-header{
+    padding: 0;
+    height: 6vh;
+    background-image: url(~@/assets/intro/fondoPP.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.StartDate{
+    margin: 0;
+    background-color: rgb(230, 189, 57); 
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.StartDate:hover{
+    box-shadow: 0 0 7px rgba(255, 221, 226);
+}
+.dateCita{
+    width: 9.5vh;
+    height: 9.5vh;
+    cursor: pointer;
+    filter: drop-shadow(0 0 13px rgb(255, 221, 226));
+}
+
+.containerDate{
+    padding: 1vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 4px double rgba(214, 174, 41, 0.69);
+    position: fixed;
+    z-index: 6;
+    top: 13vh;
+    left: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgb(212, 175, 55);
+}
+.imgRegDate{
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+}
+.imgRegDate:hover{
+    filter: drop-shadow(0 0 7px rgb(255, 221, 226));
+}
+.times{
+    width: 30vw;
+    min-width: 360px;
+    height: 45vh;
+}
+.selectHourTitle{
+    padding: 12px 0;
+    margin: 0;
+    margin-bottom: 7px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: #c41e66;
+    filter: drop-shadow(3px 3px 2px white);
+}
+.conteinerChips{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chipGrup{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chips{
+    color: white;
+    font-weight: bold;
+    filter: drop-shadow(0 0 5px white);
+}
+.chips:hover {
+    color: #c8217a;
+}
+.btnRadioDate{
+    color: white;
+}
+.lblData{
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+    width: 100%;
+    font-size: 16px; 
+    text-align: center;
+    margin-bottom: 7px;
+}
+.inputData{
+    width: 220px;
+    max-width:100%;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: radial-gradient(circle at center, rgb(155, 125, 25), rgba(255, 221, 226, 0.1));
+    -webkit-background-clip: text; /* Para navegadores webkit */
+    background-clip: text;
+    color: transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.97vw;
+    background: linear-gradient(to right, rgb(155, 125, 25), rgba(255, 221, 226, 0.1));
+    -webkit-background-clip: text; /* Para navegadores webkit */
+    background-clip: text;
+    color: transparent;
+}
+/*
+Comentarios
+<div>
+      <v-btn
+        class="ma-2"
+        variant="text"
+        icon="mdi-thumb-up"
+        color="blue-lighten-2"
+      ></v-btn>
+
+      <v-btn
+        class="ma-2"
+        variant="text"
+        icon="mdi-thumb-down"
+        color="red-lighten-2"
+      ></v-btn>
+    </div>
+}*/
+
+/*Contenido*/
+/*Campaña*/
+.carousel {
+    margin-top: 15vh;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.imgInic {
+    width: 100vw;
+    height: 50vh;
+}
+
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indicators div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.indicators div.active {
+    background-color: black;
+}
+
+/*Despliegue Contenido*/
+.vissP{
+    background-color: rgba(255, 182, 193, 0.056);
+}
+.bloque2{
+    width: 100vw;
+    background-image: url(~@/assets/intro/silueta1.png);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    animation-name: CambiarSlt;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes CambiarSlt {
+    50%{
+        background-image: url(~@/assets/intro/silueta2.png);
+    }
+}
+.sectionTitulo{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5vh;
+    font-weight: bold;
+    font-size: 2.6vw;
+    color: rgb(155, 125, 25);
+    filter: drop-shadow(3px 3px 2px rgba(128, 128, 128, 0.85));
+}
+.cuadro{
+    width:100vw;
+    box-sizing: border-box; 
+    position: relative;
+    padding: 15vh 5vw 8vh 5vw;
+}
+.deslice{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 4;
+    /*transform: translateY(-50%);*/
+}
+.espectas{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+}
+
+.quote {
+    font-family: monospace; /* Utiliza una fuente con un estilo más poético, como Georgia */
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 4.1vh 2vw;
+    font-weight: bold;
+    background: radial-gradient(circle at center, rgb(201, 162, 37) -15%, rgb(186, 186, 186));
+    -webkit-background-clip: text; /* Para navegadores webkit */
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 0 4px rgb(201, 162, 37));
+}
+
+.quotation-mark {
+    font-size: 3.9vw; /* Tamaño de fuente más grande para las comillas */
+    display: inline-block; /* Para que las comillas ocupen su propio espacio en línea */
+    margin-right: 0.1em; /* Ajuste de margen derecho para separarlas del texto */
+    color: rgb(178, 147, 43);
+    font-weight: bold;
+}
+
+.mapa{
+    width: 100vw;
+    height: 40vh;
+    margin: 11vh 0px 8vh 0px;
+    padding: 0px 3vw;
+    position: relative;
+    z-index: 4;
+}
+.boton-agenda {
+    padding: 1vw 2vw;
+    font-size: 1.7vw;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, rgb(212, 175, 55), rgb(171, 137, 23));
+    color: #ffffff;
+    border: 0;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.boton-agenda:hover {
+    box-shadow: 5px 5px 5px rgba(163, 135, 42, 0.7);
+}
+
+.footer{
+    width: 99vw;
+    background: linear-gradient(to right, rgb(212, 175, 55), rgb(171, 137, 23));
+    padding: 2vh;
+    box-sizing: border-box;
+}
+.footerImg{
+    width: 11vw;
+    height: 6.5vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px white;
+}
+
+.dataFoter{
+    padding: 0;
+    width: 20vw;
+    margin-left: 1vw;
+    font-size: 1.18vw;
+    color: white;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.PoltData{
+    text-decoration: underline;
+    cursor:pointer
+}
+.PoltData:hover{
+    color: rgb(212, 212, 212);
+}
+
+.instagram{
+    width: 4.5vw;
+    height: 4.5vw;
+    margin-right: 0.5vw;
+}
+/* BackForm*/
+.Generalfondo {
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.753);
+    z-index: 7;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*Contacto*/
+.contacto-container{
+    width: 60vw;
+    max-height: 85vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*left: 50%;
+    transform: translate(-50%, -0%);*/
+    border-radius: 8px; 
+    background-color: rgb(133, 133, 133);
+    border: 3px double rgb(110, 110, 110);
+    box-shadow: 0 0 10px rgba(110, 110, 110, 1);
+}
+.contacto-header{
+    position: relative;
+    background-color: rgb(95, 95, 95);
+    box-shadow: 0 0 10px rgba(95, 95, 95, 1);
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.3vh 1.37vw;
+}
+.contacto-header-title{
+    margin: 0px;
+    font-size: 2.28vw;
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.64));
+}
+.contacto-header-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1.37vw;
+    cursor: pointer;
+    font-size: 1.82vw;
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.64));
+}
+.contacto-contentt{
+    width: 70%;
+    padding: 1.3vw 0px;
+}
+.formIPContac{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0.9vh 0;
+    width: 80%;
+    max-width: 100%;
+}
+.formIPContac label{
+    color: whitesmoke;
+    font-size: 1.17vw; 
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    padding-right: 0.78vw; 
+    width: 35%;
+}
+.formIPContac input{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width: 65%;
+    font-size: 1.1vw;
+    border-radius: 7px;
+}
+.formIPContac textarea{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width: 65%;
+    font-size: 1.1vw;
+    border-radius: 7px;
+}
+.btnOKContac{
+    background-color: rgb(212, 175, 55);
+    font-size: 1.25vw; 
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 8px; 
+    cursor: pointer;
+    padding: 0.5vh 0.8vw;
+    margin-top: 0.7vh;
+}
+.btnOKContac:hover{
+    background-color: rgb(175, 140, 25);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.773);
+
+}
+/*Publicaciones*/
+.Publicaciones {
+    width: 70vw;
+    height: 77vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 4px double rgb(212, 175, 55);
+    box-shadow: 0 0 10px rgb(212, 175, 55, 1);
+}
+.btnFormClose{
+    width: 100%;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 4px;
+    padding-top: 2px;
+    filter: drop-shadow(0 0 4px rgb(102, 102, 102));
+}
+
+/*Data Services Posts*/
+.titlePS{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2.5vh;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    text-wrap: balance;
+    color: rgb(212, 175, 55);
+    filter: drop-shadow(3px 3px 2px rgba(128, 128, 128, 0.85));
+    max-width: 80%;
+}
+.subtitlePS{
+    padding: 0;
+    margin: 0;
+    margin-top: 0.45vh;
+    margin-bottom: 1.4vh;
+    font-size: 2.3vw;
+    font-weight: bold;
+    text-align: left;
+    text-wrap: balance;
+    color: rgba(212, 175, 55, 0.45);
+    filter: drop-shadow(0 0 4px gray);
+    max-width: 90%;
+}
+.parrafoPS{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.5vh;
+    font-size: 1.8vw;
+    max-width: 85%;
+}
+.guionPS{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.5vh;
+    max-width: 90%;
+}
+.guionPS li{
+    padding: 0;
+    margin: 0;
+    font-size: 1.85vw;
+}
+.imgPS{
+    width: 47vw; height: 24vw;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.6vh;
+    margin-bottom: 1.4vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px gray;
+    max-width: 95%;
+}
+.ClaseAGrande{
+    width: 47vw; height: 24vw;
+}
+.ClaseAMediana{
+    width: 35vw; height: 18vw;
+}
+.ClaseBGrande{
+    width: 31vw; height: 31vw;
+}
+.ClaseBMediana{
+    width: 20vw; height: 20vw;
+}
+.ClaseCGrande{
+    width: 25vw; height: 46vw;
+}
+.ClaseCMediana{
+    width: 19vw; height: 34vw;
+}
+/*Cargando*/
+#loader {
+    border: 10px solid rgba(255, 255, 255, 0.3);
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+.messageC{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25vw;
+    background-color: rgb(237, 201, 80);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.773);
+}
+.messaCerrar{
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-right: 5px;
+    margin: 5px 0;
+    width: 100%; 
+    text-align: right; 
+    cursor: pointer;
+}
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento */
+}
+/* Botón de desplazamiento (arriba y abajo) */
+::-webkit-scrollbar-button {
+    display: none;
+    /* Ocultar botones de desplazamiento */
+}
+/* Track del scroll */
+::-webkit-scrollbar-track {
+    background: transparent;
+    /* Color de fondo del track */
+}
+/* Handle del scroll */
+::-webkit-scrollbar-thumb {
+    background: #6b6b6b;
+    /* Color del handle */
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+/* Handle del scroll en hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+    /* Color del handle al pasar el mouse */
+}

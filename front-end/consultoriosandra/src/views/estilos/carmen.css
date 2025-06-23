@@ -1,0 +1,239 @@
+
+.selectIni {
+    border: 0;
+    box-shadow: 0 0 10px 0 rgb(253, 251, 251);
+    border-radius: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 1.3vh;
+    z-index: 30;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    color: white;
+}
+/*Header*/
+.bloque1 {
+    width: 99vw;
+    height: 15vh;
+    padding:0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: rgb(96, 252, 189);
+    box-sizing: border-box;
+}
+.bloque1b {
+    width: 100%;
+    background: radial-gradient(circle at center, transparent, rgba(38, 189, 129, 0.69) 30%);
+    height: 14vh;
+    border-radius: 15px;
+    padding: 0;
+}
+.logoWeb {
+    filter: drop-shadow(0 0 5px white);
+    animation-name: Logo;
+    animation-duration: 3.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Logo {
+    0%{height: 7.8vh;
+        width: 8vh;}
+    25%{height: 11.3vh;
+        width: 11.7vh;}
+    50%{height: 8.3vh;
+        width: 8.8vh;}
+    75%{height: 14vh;
+        width: 14.4vh;}
+    100%{height: 9vh;
+        width: 9.5vh;}
+}
+.ilus{
+    height: 14vh;
+    width: 14.5vh;
+    background: radial-gradient(circle at center, transparent, rgb(255, 255, 255) 70%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px rgb(255,255,255);
+}
+
+.ContactoIMG{
+    width: 7vh;
+    height: 7vh;
+    cursor: pointer;
+    position: absolute;
+    top: 3.4vh;
+    right: 6vw;
+    z-index: 6;
+}
+/*Contenido*/
+/*Campaña*/
+.carousel {
+    margin-top: 15vh;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+}
+.slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.imgInic {
+    width: 100vw;
+    height: 50vh;
+}
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indicators div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+.indicators div.active {
+    background-color: black;
+}
+/*Despliegue Contenido*/
+.bloque2{
+    width: 100vw;
+    background-image: url(~@/assets/intro/silueta1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    animation-name: CambiarSlt;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes CambiarSlt {
+    50%{
+        background-image: url(~@/assets/intro/silueta2.png);
+    }
+}
+.collage{
+    width: 100vw;
+}
+.sectionTitulo{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4.1vh;
+    font-weight: bold;
+    font-size: 2.6vw;
+    color: rgb(104, 104, 104);
+}
+.cuadro{
+    width:100vw;
+    box-sizing: border-box; 
+    position: relative;
+}
+.deslice{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 4;
+    /*transform: translateY(-50%);*/
+}
+.espectas{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+}
+.quote {
+    font-family: monospace; /* Utiliza una fuente con un estilo más poético, como Georgia */
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 4.1vh 2vw;
+    font-weight: bold;
+    background: radial-gradient(circle at center, rgb(0, 144, 86), rgb(150,150,150) 50%);
+    -webkit-background-clip: text; /* Para navegadores webkit */
+    background-clip: text;
+    color: transparent;
+}
+
+.quotation-mark {
+    font-size: 3.9vw; /* Tamaño de fuente más grande para las comillas */
+    display: inline-block; /* Para que las comillas ocupen su propio espacio en línea */
+    margin-right: 0.1em; /* Ajuste de margen derecho para separarlas del texto */
+    color: rgb(1, 194, 117);
+    font-weight: bold;
+}
+
+.mapa{
+    width: 100vw;
+    height: 40vh;
+    margin: 11vh 0px 8vh 0px;
+    padding: 0px 3vw;
+    position: relative;
+    z-index: 4;
+}
+
+.boton-agenda {
+    padding: 1vw 2vw;
+    font-size: 1.7vw;
+    font-weight: bold;
+    text-align: center;
+    background-color: #00e19a;
+    color: #ffffff;
+    border: 0;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.boton-agenda:hover {
+    background-color: #019969;
+}
+
+.footer{
+    width: 99vw;
+    background: linear-gradient(to right, rgb(1, 194, 117), rgb(0, 175, 105));
+    padding: 2vh;
+    box-sizing: border-box;
+}
+.footerImg{
+    width: 11vw;
+    height: 6.5vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px white;
+}
+
+.dataFoter{
+    padding: 0;
+    width: 20vw;
+    margin-left: 1vw;
+    font-size: 1.18vw;
+    color: white;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.PoltData{
+    text-decoration: underline;
+    cursor:pointer
+}
+.PoltData:hover{
+    color: rgb(212, 212, 212);
+}
+
+.instagram{
+    width: 4.5vw;
+    height: 4.5vw;
+    margin-right: 0.5vw;
+}

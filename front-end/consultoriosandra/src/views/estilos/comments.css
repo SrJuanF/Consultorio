@@ -1,0 +1,116 @@
+/*Comentarios*/
+.cerrar{
+    position: absolute;
+    top: 0px;
+    left: -8px;
+    font-size: 12px; 
+    cursor:pointer;
+    filter: drop-shadow(0 0 3px gray);
+}
+.imgComm{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.comment{
+    border-radius: 8px;
+    box-shadow: 0 6px 7px -4px rgb(218, 216, 216);
+    width: 100%;
+    margin-bottom: 4px;
+}
+.name{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.PPComm{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.reaction{
+    min-width: 0px !important;
+    line-height: 1 !important;
+    padding: 0 !important;
+    border-radius: 50%;
+    width: 30px !important;
+    height: 30px !important;
+}
+.reaction:hover .icon{
+    color: white !important;
+}
+.like{
+  font-size: 12px; /* Ajusta el tamaño del texto según tus preferencias */
+  text-align: center;
+}
+.reaction:hover .like{
+    color: white !important;
+}
+.showLk{
+    display: none;
+    position: absolute;
+    width: 230px;
+    top: 20px;
+    right: 0px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    z-index: 5;
+}
+.reaction:hover .showLk{
+    display: block;
+}
+.nameUserLik{
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    margin-left: 4px;
+    font-size: 11px;
+    text-align: center;
+    text-wrap: balance;
+    font-weight: normal;
+}
+
+.linkReviews{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+.linkReviews:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.reviews{
+    margin: 0;
+    margin-top: 7px;
+}
+.inputComm {
+    width: 75%;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(233, 233, 233);
+    border-radius: 8px;
+    font-size: 13px;
+}
+.btnEnv{
+    margin: 0;
+    padding: 3px 6px;
+    color:black;
+    background-color:white;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.subLvl{
+    width: 90%;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    box-shadow: -6px 0 5px -5px rgb(218, 216, 216);
+}
